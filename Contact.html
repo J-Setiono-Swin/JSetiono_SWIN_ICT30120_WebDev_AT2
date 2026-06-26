@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+<head>
+	<script>
+	<!--A Hide/Show function-->
+	function buttonFunction()
+	{var x = document.getElementById("spam_phone");
+	  if (x.style.display === "none") 
+	  {x.style.display = "block";} 
+	  else {x.style.display = "none";}} 
+	</script>
+	
+	<title>Contact a Website</title>
+	
+	<div class="topnav">
+		<a href="Home.html">Home</a>
+		<a href="About.html">About</a>
+		<a class="active" href="Contact.html">Contact</a>
+	</div>
+	
+	</head>
+	<body>
+	
+	
+	<h1>Contact</h1>
+	
+
+	<p>Call these numbers. </p>
+	<table border='4'>
+	<tr>
+		<th>Contact</th>
+		<th>Company</th>
+		<th>Number</th>
+	<tr>
+		<td title="ILOVETV">
+		Antony Tenna</td>
+		<td>TV World Studios</td>
+		<td>1800 880 8463</td>
+	</tr>
+	<tr>
+		<td 
+		title="HYPERLINK BLOCKED"> 
+		Spamton G. Spamton </td>
+		<td>Cyber City Junkyard</td>
+		<td>1800 244 7468 </td>
+	</tr>
+	
+	</table>
+	<br><br><br>
+	
+	<button onclick="buttonFunction()">Click Me</button>
+	<div style='display:none' id="spam_phone">
+		<img 
+		border="2"
+		src="images\spam-phone.gif" 
+		alt="A GIF of a ringing phone on a stool in a lonely, dark room."
+		title="Hello..? Is anyone there?">	
+		<p style='font-size:10px; color:gray;'>
+		Hint: Hover over the names to see a little easter egg!</p>
+	</div>
+	
+	
+
+	</body>
+
+</html>
+	

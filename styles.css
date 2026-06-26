@@ -1,0 +1,17 @@
+/*StyleSheet for WebDev Assessment*/
+
+
+/*Begin TopNav Styles */
+.topnav {background-color: #514560; overflow: hidden;}
+.topnav a {float:left; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;}
+.topnav a:hover {background-color: #e4dfd0; color: black;}
+.topnav a.active {background-color: #877fae; color: white;}
+/*End TopNav Styles*/
+
+/*Begin Page Styles*/
+
+body {background:633;}
+h1,h2,h3,h4,p{color:b9a488; font-family:'courier new', monospace;}
+
+/*Table Styles*/
+table, td, th{font-family:'courier new', 'monospace';}
